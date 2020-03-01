@@ -1,0 +1,10 @@
+{application,pi_stream_cam,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
+                             toolshed,ring_logger,shoehorn,picam,plug,
+                             plug_cowboy]},
+              {description,"pi_stream_cam"},
+              {modules,['Elixir.PiStreamCam',
+                        'Elixir.PiStreamCam.Application']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.PiStreamCam.Application',[]}}]}.
